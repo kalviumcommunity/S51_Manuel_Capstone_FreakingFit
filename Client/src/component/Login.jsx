@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate from react-router-dom
-import "./Login.css"
+import { useNavigate, Link } from 'react-router-dom'; // Import useNavigate and Link from react-router-dom
+import "./Login.css";
 
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate(); // Initialize useNavigate
+  const [isLoggedIn, setIsLoggedIn] = useState(false); // Initialize isLoggedIn state
+  const navigate = useNavigate();
 
   const handleLogin = () => {
     // Add your login logic here (e.g., authentication with backend)
     if (username === 'your_username' && password === 'your_password') {
       // Redirect to home page or any other page upon successful login
+      setIsLoggedIn(true); // Set isLoggedIn state to true
       navigate('/');
     } else {
       // Handle incorrect credentials
@@ -32,6 +34,7 @@ const Login = () => {
         </div>
         <button type="button" onClick={handleLogin}>Login</button>
       </form>
+      <p>Don't have an account? <Link to="/signup">Create account</Link></p> {/* Link to signup page */}
     </div>
   );
 }
