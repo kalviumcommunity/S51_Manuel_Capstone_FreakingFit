@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import "./Signup.css"
+import PropTypes from 'prop-types';
+import { Link, useNavigate } from 'react-router-dom';
+import './Signup.css';
 
-const Signup = () => {
+const Signup = ({ setIsLoggedIn }) => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const handleSignup = () => {
     // Implement your signup logic here (e.g., sending form data to the server)
@@ -17,6 +19,8 @@ const Signup = () => {
     setUsername('');
     setEmail('');
     setPassword('');
+    setIsLoggedIn(true);
+    navigate('/');
   };
 
   return (
@@ -37,9 +41,15 @@ const Signup = () => {
         </div>
         <button type="button" onClick={handleSignup}>Sign Up</button>
       </form>
-      <p>Already have an account? <Link to="/login">Login</Link></p>
+      <p>
+        Already have an account? <Link to="/login">Login</Link>
+      </p>
     </div>
   );
-}
+};
+
+Signup.propTypes = {
+  setIsLoggedIn: PropTypes.func.isRequired,
+};
 
 export default Signup;
