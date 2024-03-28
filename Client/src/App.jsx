@@ -3,6 +3,7 @@ import Navbar from "../src/component/Navbar";
 import Home from "../src/component/Home"
 import Login from "../src/component/Login"
 import Signup from './component/Signup';
+import Footer from './component/Footer';
 import React, { useState } from 'react';
 
 const App = () => {
