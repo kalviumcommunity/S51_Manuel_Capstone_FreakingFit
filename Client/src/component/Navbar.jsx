@@ -15,6 +15,7 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
           <Link to="/"> {/* Link wraps the logo and sets the destination to the home page */}
             <img src={logo} alt="Logo" id='logo'/>
           </Link>
+          <h3>Freaking<br/> Fitness</h3>
         </div>
         <div className="login-button">
           <Link to="/login">Login</Link>

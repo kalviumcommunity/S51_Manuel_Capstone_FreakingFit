@@ -7,9 +7,13 @@ function Home() {
     <>
       <div className="home-container">
         <div className="description">
+          <h1>Freaking Fitness</h1>
           <p>
-            Freaking Fit is a comprehensive web application tailored to guide users in achieving their fitness goals, whether it's gaining muscle mass, losing weight, or improving overall fitness levels. With a wide range of workout routines, nutrition plans, and expert advice, Freaking Fit empowers users to sculpt their bodies and enhance their health.<br/><br/>
-            Access personalized training programs, and connect with a supportive community of fitness enthusiasts. Freaking Fit is your ultimate partner in the pursuit of a stronger, healthier you.
+            Welcome to Freaking Fit–your personalized fitness companion designed to support you in reaching your health and wellness aspirations. Whether you're striving to bulk up, shed some pounds, or simply enhance your overall fitness, we've got you covered.
+            
+            Explore our diverse range of workout routines, nutrition plans, and expert guidance tailored to your unique goals. With Freaking Fit by your side, you'll empower yourself to sculpt your dream physique and elevate your well-being.
+            Unlock access to custom-tailored training programs and join a vibrant community of like-minded fitness enthusiasts. Together, we'll embark on a journey towards a stronger, healthier version of you.
+            Ready to transform your lifestyle and embrace a fitter, happier you? Let Freaking Fit be your trusted partner in this exhilarating adventure towards achieving your fitness dreams.
           </p>
         </div>
         <div className="other-content">

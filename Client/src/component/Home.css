@@ -7,17 +7,22 @@
   }
   
   .description {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
-    margin-bottom: 50px;
-    margin-left:200px ;
-    background-color: white; /* Light gray background */
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    /* margin-left:200px ; */
+    /* font-family:; */
+    text-align: center;
     font-weight: bold;
+    animation: fadeInLeft 1s ease;
+    font-size: large;
   }
   
   .description p {
-    animation: fadeInLeft 1s ease; /* Example animation */
+    animation: fadeInLeft 1s ease;
   }
   
   .other-content {
