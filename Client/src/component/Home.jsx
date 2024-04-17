@@ -9,7 +9,7 @@ function Home() {
         <div className="description">
           <h1>Freaking Fitness</h1>
           <p>
-            Welcome to Freaking Fit–your personalized fitness companion designed to support you in reaching your health and wellness aspirations. Whether you're striving to bulk up, shed some pounds, or simply enhance your overall fitness, we've got you covered.
+            Welcome to Freaking Fit-your personalized fitness companion designed to support you in reaching your health and wellness aspirations. Whether you're striving to bulk up, shed some pounds, or simply enhance your overall fitness, we've got you covered.
             
             Explore our diverse range of workout routines, nutrition plans, and expert guidance tailored to your unique goals. With Freaking Fit by your side, you'll empower yourself to sculpt your dream physique and elevate your well-being.
             Unlock access to custom-tailored training programs and join a vibrant community of like-minded fitness enthusiasts. Together, we'll embark on a journey towards a stronger, healthier version of you.

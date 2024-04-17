@@ -59,3 +59,47 @@
   height: 70px;
   margin-left: 20px;
 }
+/* Navbar.css */
+
+/* Styles for login link */
+.login-button a {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px; /* Adjust margin as needed */
+  transition-duration: 0.4s;
+}
+
+.login-button a:hover {
+  background-color: #005f75; /* Darker Blue */
+}
+
+/* Styles for about button */
+.buton {
+  float: right; /* Aligns the button to the right */
+}
+
+.buton button {
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px; /* Adjust margin as needed */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buton button:hover {
+  background-color: #d32f2f; /* Darker Red */
+}
+
+

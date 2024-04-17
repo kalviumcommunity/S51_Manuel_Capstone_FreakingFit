@@ -4,6 +4,7 @@ import Home from "../src/component/Home"
 import Login from "../src/component/Login"
 import Signup from './component/Signup';
 import Footer from './component/Footer';
+import About from "./component/About"
 import React, { useState } from 'react';
 
 const App = () => {
@@ -23,7 +24,9 @@ const App = () => {
           path="/Signup"
           element={<Signup setIsLoggedIn={setIsLoggedIn} />}
         />
+        <Route path="/About" element={<About />} /> {/* New route for About component */}
       </Routes>
+      <Footer />
     </Router>
   );
 };
