@@ -19,6 +19,10 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
         </div>
         <div className="login-button">
           <Link to="/login">Login</Link>
+        <div className="buton">
+          <button>ABOUT</button>
+        <Link to ="/About"></Link>
+        </div>
         </div>
       </div>
     </nav>
