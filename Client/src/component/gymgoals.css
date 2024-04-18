@@ -1,0 +1,36 @@
+/* gymgoals.css */
+
+
+
+/* gymgoals.css */
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-wrap: wrap;
+}
+
+.box {
+  width: calc(50% - 20px); /* Adjust the width as needed */
+  max-width: 300px; /* Maximum width of each box */
+  height: 150px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px; /* Adjust the margin as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box; /* Ensure padding and border don't affect width */
+  padding: 20px; /* Padding inside each box */
+}
+
+.box p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+

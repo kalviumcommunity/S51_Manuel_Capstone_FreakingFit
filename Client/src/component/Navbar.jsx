@@ -12,17 +12,15 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
     <nav>
       <div className="navbar-container">
         <div className="logo">
-          <Link to="/"> {/* Link wraps the logo and sets the destination to the home page */}
+          <Link to="/">
             <img src={logo} alt="Logo" id='logo'/>
           </Link>
           <h3>Freaking<br/> Fitness</h3>
         </div>
-        <div className="login-button">
-          <Link to="/login">Login</Link>
-        <div className="buton">
-          <button>ABOUT</button>
-        <Link to ="/About"></Link>
-        </div>
+        <div className="buttons">
+          <Link to="/login" className="button">Login</Link>
+          <Link to="/about" className="button">ABOUT</Link>
+          <Link to="/gymgoals" className="button">GYM GOALS</Link>
         </div>
       </div>
     </nav>
