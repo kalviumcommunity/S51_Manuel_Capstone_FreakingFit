@@ -7,6 +7,7 @@ import Footer from "./component/Footer";
 import About from "./component/About";
 import Gymgoals from "./component/Gymgoals";
 import React, { useState } from "react";
+import Feedback from "./component/Feedback";
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/About" element={<About />} />{" "}
         {/* New route for About component */}
         <Route path="/gymgoals" element={<Gymgoals />} />
+        <Route path="/feedback" element={<Feedback />} />
       </Routes>
       <Footer />
     </Router>

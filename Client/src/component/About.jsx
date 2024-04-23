@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from React Router
 import './About.css';
 
 const About = () => {
@@ -10,6 +11,11 @@ const About = () => {
       <p>Our state-of-the-art facilities provide an immersive experience, equipped with cutting-edge equipment and expert trainers dedicated to your success.</p>
       <p>Whether you're aiming to lose weight, build muscle, or improve flexibility, Freaking Fitness has tailored programs designed to meet your individual needs.</p>
       <p>Join the Freaking Fitness community today and embark on a transformative journey towards a happier, healthier you!</p>
+      <div className='buttons'>
+        <Link to="/feedback"> {/* Link the button to the feedback page */}
+          <button>FEEDBACK</button>
+        </Link>
+      </div>
     </div>
   );
 };
