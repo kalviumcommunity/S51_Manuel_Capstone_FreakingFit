@@ -20,6 +20,7 @@ function Home() {
           {/* Your other content goes here */}
         </div>
       </div>
+  
       <Footer />
     </>
   );
