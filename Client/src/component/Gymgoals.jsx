@@ -1,18 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './gymgoals.css';
 import strength from "../assets/strength.png";
-import sports from "../assets/sports.png";
 import muslebuilding from "../assets/muslebuilding.png";
-import fatloss from "../assets/fat loss.jpg"
-import Endurancetraining from "../assets/Endurance training.jpg"
-// Import other images as needed
+import fatloss from "../assets/fat loss.jpg";
 
 const GymGoals = () => {
   return (
     <div className="container">
       <div className="box">
-        <img src={strength} alt="strength" />
-        <p>Strength Training</p>
+        <Link to="/Strength"> {/* Wrap the image inside Link and specify the target route */}
+          <img src={strength} alt="strength" />
+          <p>Strength Training</p>
+        </Link>
       </div>
       <div className="box">
         <img src={ muslebuilding} alt=" muslebuilding" />
@@ -23,7 +23,7 @@ const GymGoals = () => {
         <p>Fat Loss</p> 
       </div>
       <div className="box">
-      <img src={Endurancetraining} alt="Endurance training" />
+      
         <p>Endurance Training</p>
       </div>
       <div className="box">
