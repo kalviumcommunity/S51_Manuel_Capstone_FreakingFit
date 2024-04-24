@@ -8,6 +8,7 @@ import About from "./component/About";
 import Gymgoals from "./component/Gymgoals";
 import React, { useState } from "react";
 import Feedback from "./component/Feedback";
+import Strength from "./component/Strength"
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -30,6 +31,7 @@ const App = () => {
         {/* New route for About component */}
         <Route path="/gymgoals" element={<Gymgoals />} />
         <Route path="/feedback" element={<Feedback />} />
+        <Route path="Strength" element={<Strength/>} />
       </Routes>
       <Footer />
     </Router>
