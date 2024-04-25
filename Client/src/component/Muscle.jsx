@@ -19,8 +19,8 @@ const Muscle = () => {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/fWN3Grwu_hc"
-          title="Muscle Training"
+          src="https://www.youtube.com/embed/lA-diBuGy6I"
+          title="Muscle Training 1"
           frameBorder="0"
           allowFullScreen
           className="video-frame"
@@ -30,8 +30,8 @@ const Muscle = () => {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/9FBIaqr7TjQ"
-          title="Muscle Training"
+          src="https://www.youtube.com/embed/pZTq9zhr0tk"
+          title="Muscle Training 2"
           frameBorder="0"
           allowFullScreen
           className="video-frame"
@@ -41,8 +41,8 @@ const Muscle = () => {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/H1F-UfC8Mb8"
-          title="Muscle Training"
+          src="https://www.youtube.com/embed/5UuigGzDUZs"
+          title="Muscle Training 3"
           frameBorder="0"
           allowFullScreen
           className="video-frame"

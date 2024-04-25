@@ -47,6 +47,9 @@ const Strength = () => {
           className="video-frame"
         ></iframe>
       </div>
+      <div className="center-button">
+        <button>Diet</button>
+      </div>
     </div>
   );
 };
