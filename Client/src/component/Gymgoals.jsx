@@ -15,8 +15,10 @@ const GymGoals = () => {
         </Link>
       </div>
       <div className="box">
+      <Link to ="/Muscle">
         <img src={ muslebuilding} alt=" muslebuilding" />
         <p>Muscle Building</p>
+        </Link>
       </div>
       <div className="box">
       <img src={ fatloss} alt="fatloss" />
