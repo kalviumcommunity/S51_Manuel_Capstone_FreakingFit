@@ -15,7 +15,7 @@ const Strength = () => {
         strength training:
       </p>
       <div className="video-container">
-        <iframe
+        <iframe 
           width="560"
           height="315"
           src="https://www.youtube.com/embed/fWN3Grwu_hc"
@@ -46,6 +46,9 @@ const Strength = () => {
           allowfullscreen
           className="video-frame"
         ></iframe>
+      </div>
+      <div className="center-button">
+        <button>Diet</button>
       </div>
     </div>
   );
