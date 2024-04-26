@@ -18,6 +18,7 @@ const Login = ({ setIsLoggedIn }) => {
   };
 
   return (
+    <div className="login-page">
     <div className="login-container">
       <h2>Login</h2>
       <form>
@@ -32,6 +33,7 @@ const Login = ({ setIsLoggedIn }) => {
         <button type="button" onClick={handleLogin}>Login</button>
       </form>
       <p>Don't have an account? <Link to="/signup">Create account</Link></p>
+    </div>
     </div>
   );
 }
