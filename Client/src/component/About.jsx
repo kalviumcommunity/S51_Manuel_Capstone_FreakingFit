@@ -4,7 +4,8 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container-main">
+      <div className="about-container">
       <h1>About Freaking Fitness</h1>
       <p>Welcome to Freaking Fitness, your ultimate destination for all things fitness! We are passionate about helping you achieve your health and wellness goals.</p>
       <p>At Freaking Fitness, we believe that fitness is not just about looking good, but also about feeling good from the inside out. That's why we offer a wide range of fitness programs, nutritional guidance, and motivational support to help you become the best version of yourself.</p>
@@ -16,6 +17,7 @@ const About = () => {
           <button>FEEDBACK</button>
         </Link>
       </div>
+    </div>
     </div>
   );
 };
