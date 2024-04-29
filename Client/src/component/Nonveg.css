@@ -1,39 +1,38 @@
 /* Meal Plan Container */
 .meal-plan-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f7f7f7;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Meal Plan Headings */
-  .meal-plan-heading {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  /* Meal Plan Lists */
-  .meal-plan-list {
-    list-style-type: none;
-    padding-left: 20px;
-  }
-  
-  .meal-plan-list li {
-    margin-bottom: 10px;
-  }
-  
-  /* Optional Snack Style */
-  .optional-snack {
-    font-style: italic;
-  }
-  
-  /* Note Section */
-  .note-section {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #666;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Meal Plan Headings */
+.meal-plan-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Meal Plan Lists */
+.meal-plan-list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.meal-plan-list li {
+  margin-bottom: 10px;
+}
+
+/* Optional Snack Style */
+.optional-snack {
+  font-style: italic;
+}
+
+/* Note Section */
+.note-section {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
