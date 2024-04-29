@@ -10,6 +10,9 @@ import React, { useState } from "react";
 import Feedback from "./component/Feedback";
 import Strength from "./component/Strength"
 import Muscle from "./component/Muscle";
+import Veg from "./component/Veg";
+import NonVeg from "./component/NonVeg";
+import Strengthdiet from "./component/Strengthdiet";
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -34,6 +37,12 @@ const App = () => {
         <Route path="/feedback" element={<Feedback />} />
         <Route path="Strength" element={<Strength/>} />
         <Route path="Muscle" element={<Muscle/>} />
+        <Route path="Veg" element={<Veg/>} />
+        <Route path="NonVeg" element={<NonVeg/>} />
+
+
+        <Route path="Strengthdiet" element={<Strengthdiet/>} />
+
 
       </Routes>
       <Footer />

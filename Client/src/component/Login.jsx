@@ -30,7 +30,7 @@ const Login = ({ setIsLoggedIn }) => {
           <label>Password:</label>
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </div>
-        <button type="button" onClick={handleLogin}>Login</button>
+        <button type="button" onClick={handleLogin} id='login'>Login</button>
       </form>
       <p>Don't have an account? <Link to="/signup">Create account</Link></p>
     </div>

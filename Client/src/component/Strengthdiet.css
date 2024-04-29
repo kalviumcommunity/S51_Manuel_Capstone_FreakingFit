@@ -1,0 +1,23 @@
+.food {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .food button {
+    margin: 0 5px; /* Add space between buttons */
+    padding: 10px 20px; /* Add padding to buttons */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .food button:hover {
+    background-color: #45a049;
+  }
+p{
+    margin-left: 20px;
+    font-weight: bold;
+    
+}  

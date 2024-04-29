@@ -1,5 +1,6 @@
 import React from 'react';
-import "./strength.css";
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import "./strength.css"; // Make sure to adjust the path based on your file structure
 
 const Strength = () => {
   return (
@@ -20,8 +21,8 @@ const Strength = () => {
           height="315"
           src="https://www.youtube.com/embed/fWN3Grwu_hc"
           title="Strength Training"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
           className="video-frame"
         ></iframe>
       </div>
@@ -31,8 +32,8 @@ const Strength = () => {
           height="315"
           src="https://www.youtube.com/embed/9FBIaqr7TjQ"
           title="Strength Training"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
           className="video-frame"
         ></iframe>
       </div>
@@ -42,13 +43,15 @@ const Strength = () => {
           height="315"
           src="https://www.youtube.com/embed/H1F-UfC8Mb8"
           title="Strength Training"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
           className="video-frame"
         ></iframe>
       </div>
       <div className="center-button">
-        <button>Diet</button>
+        <Link to="/Strengthdiet">
+          <button>Diet</button>
+        </Link>
       </div>
     </div>
   );
