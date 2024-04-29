@@ -9,7 +9,7 @@
   width: 250px; /* Adjusted width */
   display: flex;
   flex-direction: column;
-  /* align-items: center;*/
+  /* align-items: center; */
   justify-content: center;
   padding: 20px;
   background-color: #f4f4f4;
@@ -40,21 +40,21 @@ input[type="password"] {
   border-radius: 5px;
 }
 
-button {
+#login {
+  margin-left: 36%;
   background-color: #4CAF50;
   color: black;
-  padding: 10px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
 
-button:hover {
+#login:hover {
   background-color: #45a049;
 }
 
-/* Animation for login button */
+/* Animation for login #login */
 
 
 @keyframes pulse {
