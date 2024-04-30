@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link component
 import "./muscle.css";
 
 const Muscle = () => {
@@ -47,6 +48,12 @@ const Muscle = () => {
           allowFullScreen
           className="video-frame"
         ></iframe>
+      </div>
+      <div className="center-button">
+        {/* Linking "Diet" button to "/Musclestrength" page */}
+        <Link to="/Musclestrength">
+          <button>Diet</button>
+        </Link>
       </div>
     </div>
   );
