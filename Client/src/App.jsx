@@ -44,11 +44,7 @@ const App = () => {
         <Route path="NonVeg" element={<NonVeg/>} />
         <Route path="Musclestrength" element={<Musclestrength/>} />
         <Route path="Mveg" element={<Mveg/>} />
-        <Route path="Mnoneg" element={<Mnonveg/>} />
-
-
-
-
+        <Route path="Mnonveg" element={<Mnonveg/>} />
         <Route path="Strengthdiet" element={<Strengthdiet/>} />
 
 

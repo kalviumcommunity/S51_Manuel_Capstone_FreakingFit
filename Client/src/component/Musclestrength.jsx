@@ -7,7 +7,7 @@ function Musclestrength() {
     <div>
       <p>Welcome to Muscle strength, your ultimate destination for achieving your fitness goals with precision and expertise.</p>
       <div className='food'>
-        <Link to="Mveg"> {/* Link to Veg page */}
+        <Link to="/Mveg"> {/* Link to Veg page */}
           <button>VEG</button>
         </Link>
         <Link to="/Mnonveg"> {/* Link to NonVeg page */}
