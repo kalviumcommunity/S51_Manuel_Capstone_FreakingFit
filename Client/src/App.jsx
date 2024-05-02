@@ -16,6 +16,8 @@ import Strengthdiet from "./component/Strengthdiet";
 import Musclestrength from "./component/Musclestrength";
 import Mveg from "./component/Mveg";
 import Mnonveg from "./component/Mnonveg";
+import Fatloss from "./component/Fatloss";
+import Fat from "./component/Fat";
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -40,11 +42,14 @@ const App = () => {
         <Route path="/feedback" element={<Feedback />} />
         <Route path="Strength" element={<Strength/>} />
         <Route path="Muscle" element={<Muscle/>} />
+        <Route path="Fatloss" element={<Fatloss/>} />
         <Route path="Veg" element={<Veg/>} />
         <Route path="NonVeg" element={<NonVeg/>} />
         <Route path="Musclestrength" element={<Musclestrength/>} />
         <Route path="Mveg" element={<Mveg/>} />
         <Route path="Mnonveg" element={<Mnonveg/>} />
+        <Route path="Fat" element={<Fat/>} />
+
         <Route path="Strengthdiet" element={<Strengthdiet/>} />
 
 

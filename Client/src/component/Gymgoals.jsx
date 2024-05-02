@@ -20,10 +20,13 @@ const GymGoals = () => {
         <p>Muscle Building</p>
         </Link>
       </div>
+      <Link to="/Fatloss">
       <div className="box">
       <img src={ fatloss} alt="fatloss" />
         <p>Fat Loss</p> 
+      
       </div>
+      </Link>
       <div className="box">
       
         <p>Endurance Training</p>
