@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 function Fat() {
   return (
     <div>
-      <div>Fat</div>
-      <div className="button-container">
+      <p>Welcome to Fat Loss Diet, your ultimate destination for achieving your fitness goals with precision and expertise.</p>
+      <div className='food'>
         <Link to="/Fveg">
-          <button>Veg</button>
+          <button>VEG</button>
         </Link>
         <Link to="/Fnonveg">
-          <button>Non-Veg</button>
+          <button>NON-VEG</button>
         </Link>
       </div>
     </div>
