@@ -20,6 +20,7 @@ import Fatloss from "./component/Fatloss";
 import Fat from "./component/Fat";
 import Fnonveg from "./component/Fnonveg";
 import Fveg from "./component/Fveg";
+import Endurance from "./component/Endurance";
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -52,7 +53,7 @@ const App = () => {
         <Route path="Fat" element={<Fat/>} />
         <Route path="Fveg" element={<Fveg/>} />
         <Route path="Fnonveg" element={<Fnonveg/>} />
-
+        <Route path="endurance" element={<Endurance/>} />
         
 
 
