@@ -41,7 +41,7 @@ function Endurance() {
           className="video-frame"
         ></iframe>
       </div>
-      <Link to="/diet" className='diet'>
+      <Link to="/Endu" className='diet'>
         <button>Diet</button>
       </Link>
     </div>
