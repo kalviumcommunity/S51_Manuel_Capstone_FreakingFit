@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './gymgoals.css';
 import strength from "../assets/strength.png";
 import muslebuilding from "../assets/muslebuilding.png";
-import fatloss from "../assets/fat loss.jpg";
+import fatloss from "../assets/fat loss.png";
 
 const GymGoals = () => {
   return (
@@ -28,8 +28,9 @@ const GymGoals = () => {
       </div>
       </Link>
       <div className="box">
-      
+      <Link to='/Endurance'>
         <p>Endurance Training</p>
+        </Link>
       </div>
       <div className="box">
         {/* Add image and alt text for Flexibility and Mobility */}
