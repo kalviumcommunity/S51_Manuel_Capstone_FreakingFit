@@ -4,6 +4,7 @@ import './gymgoals.css';
 import strength from "../assets/strength.png";
 import muslebuilding from "../assets/muslebuilding.png";
 import fatloss from "../assets/fat loss.png";
+import Endurance from "../assets/Endurance training.jpg";
 
 const GymGoals = () => {
   return (
@@ -29,6 +30,7 @@ const GymGoals = () => {
       </Link>
       <div className="box">
       <Link to='/Endurance'>
+      <img src={Endurance} alt="Endurance Training" />
         <p>Endurance Training</p>
         </Link>
       </div>
