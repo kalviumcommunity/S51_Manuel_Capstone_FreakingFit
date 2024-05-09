@@ -38,8 +38,9 @@ const GymGoals = () => {
         </Link>
       </div>
       <div className="box">
-        {/* Add image and alt text for Functional Training */}
+      <Link to="/Functional">
         <p>Functional Training</p>
+      </Link>
       </div>
       <div className="box">
         {/* Add image and alt text for Sport-Specific Training */}

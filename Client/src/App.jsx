@@ -28,6 +28,7 @@ import Flexibility from "./component/Flexibility";
 import Flexdiet from "./component/Flexdiet";
 import Flexnonveg from "./component/Flexnonveg";
 import Flexveg from "./component/Flexveg";
+import Functional from "./component/functional ";
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -68,13 +69,7 @@ const App = () => {
         <Route path="Flexdiet" element={<Flexdiet/>} />
         <Route path="Flexnonveg" element={<Flexnonveg/>} />
         <Route path="Flexveg" element={<Flexveg/>} />
-
-
-
-
-
-
-
+        <Route path="Functional" element={<Functional/>} />
         <Route path="Strengthdiet" element={<Strengthdiet/>} />
 
 
