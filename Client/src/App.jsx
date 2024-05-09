@@ -22,6 +22,13 @@ import Fnonveg from "./component/Fnonveg";
 import Fveg from "./component/Fveg";
 import Endurance from "./component/Endurance";
 import Endu from "./component/Endu";
+import Enduveg from "./component/Enduveg";
+import Endunonveg from "./component/Endunonveg";
+import Flexibility from "./component/Flexibility";
+import Flexdiet from "./component/Flexdiet";
+import Flexnonveg from "./component/Flexnonveg";
+import Flexveg from "./component/Flexveg";
+import Functional from "./component/functional ";
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -56,9 +63,13 @@ const App = () => {
         <Route path="Fnonveg" element={<Fnonveg/>} />
         <Route path="endurance" element={<Endurance/>} />
         <Route path="endu" element={<Endu/>} />
-
-
-
+        <Route path="Enduveg" element={<Enduveg/>} />
+        <Route path="Endunonveg" element={<Endunonveg/>} />
+        <Route path="Flexibility" element={<Flexibility/>} />
+        <Route path="Flexdiet" element={<Flexdiet/>} />
+        <Route path="Flexnonveg" element={<Flexnonveg/>} />
+        <Route path="Flexveg" element={<Flexveg/>} />
+        <Route path="Functional" element={<Functional/>} />
         <Route path="Strengthdiet" element={<Strengthdiet/>} />
 
 
