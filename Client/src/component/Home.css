@@ -1,7 +1,5 @@
 .home-container {
-    position: absolute;
-    bottom: 100px; /* Adjust the distance from the bottom as needed */
-    left: 0;
+  
     width: 90%;
     display: flex;
   }

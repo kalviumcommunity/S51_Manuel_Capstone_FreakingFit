@@ -32,6 +32,11 @@ import Functional from "./component/functional ";
 import Functionaldiet from "./component/Functionaldiet";
 import Funcveg from "./component/Funcveg";
 import Funcnonveg from "./component/Funcnonveg";
+import Sport from "./component/Sport";
+import Sportdiet from "./component/Sportdiet";
+import Sportveg from "./component/Sportveg";
+import Sportnonveg from "./component/Sportnonveg";
+
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -77,6 +82,10 @@ const App = () => {
         <Route path="Functionaldiet" element={<Functionaldiet/>} />
         <Route path="Funcveg" element={<Funcveg/>} />
         <Route path="Funcnonveg" element={<Funcnonveg/>} />
+        <Route path="Sport" element={<Sport/>} />
+        <Route path="Sportdiet" element={<Sportdiet/>} />
+        <Route path="Sportveg" element={<Sportveg/>} />
+        <Route path="Sportnonveg" element={<Sportnonveg/>} />
 
 
 
