@@ -36,6 +36,10 @@ import Sport from "./component/Sport";
 import Sportdiet from "./component/Sportdiet";
 import Sportveg from "./component/Sportveg";
 import Sportnonveg from "./component/Sportnonveg";
+import Abs from "./component/Abs";
+import Absdiet from "./component/Absdiet";
+import Absveg from "./component/Absveg";
+import Absnonveg from "./component/Absnonveg";
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -86,6 +90,10 @@ const App = () => {
         <Route path="Sportdiet" element={<Sportdiet/>} />
         <Route path="Sportveg" element={<Sportveg/>} />
         <Route path="Sportnonveg" element={<Sportnonveg/>} />
+        <Route path="Abs" element={<Abs/>} />
+        <Route path="Absdiet" element={<Absdiet/>} />
+        <Route path="Absveg" element={<Absveg/>} />
+        <Route path="Absnonveg" element={<Absnonveg/>} />
 
 
 
