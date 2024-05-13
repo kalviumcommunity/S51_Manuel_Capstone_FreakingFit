@@ -12,15 +12,12 @@ app.get("/", (req, res) => {
 
 // Login / sign in Routes ---------------------------------------------------------------------------------------------------------------------------
 
-
-// Import route handlers
-const signupRouter = require('./Routes/signupRoute');
-const loginRouter = require('./Routes/loginRoute');
+const {login,signup} = require('./routes/authserver')
 
 
 // Route handlers
-app.use('/signup', signupRouter);
-app.use('/login', loginRouter);
+app.use(signup);
+app.use(login);
 
 
 // Starting the server with error handling
