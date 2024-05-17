@@ -3,6 +3,7 @@ const cors=require("cors")
 const bodyparser=require("body-parser")
 const { startDatabase, stopDatabase, isConnected } = require('./db');
 require("dotenv").config();
+const FeedbackRouter=require('./routes/Feedback.routes')
 
 const app = express();
 app.use(express.json())
@@ -22,6 +23,7 @@ app.use(cors())
 app.use(bodyparser.json())
 app.use(signup);
 app.use(login);
+app.use(FeedbackRouter)
 
 
 // Starting the server with error handling
