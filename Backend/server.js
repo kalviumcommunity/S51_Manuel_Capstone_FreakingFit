@@ -1,4 +1,6 @@
 const express = require("express");
+const cors=require("cors")
+const bodyparser=require("body-parser")
 const { startDatabase, stopDatabase, isConnected } = require('./db');
 require("dotenv").config();
 
@@ -16,6 +18,8 @@ const {login,signup} = require('./routes/authserver')
 
 
 // Route handlers
+app.use(cors())
+app.use(bodyparser.json())
 app.use(signup);
 app.use(login);
 
