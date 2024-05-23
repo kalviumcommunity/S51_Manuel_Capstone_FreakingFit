@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import "./Feedback.css";
+import { useNavigate } from "react-router-dom";
+import axios from 'axios'
 
 function Feedback() {
+  const navigate = useNavigate()
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -19,15 +22,17 @@ function Feedback() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission - you can send the formData to your backend or perform any other actions here
-    console.log(formData);
-    // Optionally, reset the form fields after submission
-    setFormData({
-      name: "",
-      email: "",
-      category: "",
-      message: "",
-    });
+    axios.post('http://localhost:3000/api/feedback',{
+      name:formData.name,
+      email:formData.email,
+      category:formData.category,
+      feedback:formData.message
+    }).then((res)=>{
+      console.log(res.data);
+      navigate('/')
+    }).catch((err)=>{
+      console.err(err)
+    })
   };
 
   return (
