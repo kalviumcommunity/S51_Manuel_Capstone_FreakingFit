@@ -1,7 +1,7 @@
 /* Footer.css */
 .footer-container {
     background-color: #1a1a1a; 
-    padding: 20px 0;
+    padding: 0;
 }
 
 .footer-content {
@@ -30,7 +30,7 @@
 
 .footer-section ul {
     list-style: none;
-    padding-left: 0;
+    padding-left: 17px;
 }
 
 .footer-section ul li {
@@ -57,7 +57,7 @@
 
 .footer-bottom {
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     padding-top: 20px;
     border-top: 1px solid #ccc; /* Light gray border top */
     color: #ccc; /* Light gray text color */
@@ -66,4 +66,8 @@
 
 .footer-bottom p {
     font-size: 14px;
+}
+
+.footer-heading {
+    margin-left: 17px;
 }

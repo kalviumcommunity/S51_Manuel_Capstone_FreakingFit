@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer-container">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>Exercise Plans</h3>
+          <h3 className='footer-heading'>Exercise Plans</h3>
           <p>Find personalized exercise routines to help you reach your fitness goals.</p>
           <ul>
             <li>Cardio workouts</li>
@@ -16,7 +16,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-section">
-          <h3>Diet Plans</h3>
+          <h3 className='footer-heading'>Diet Plans</h3>
           <p>Discover healthy meal plans tailored to your dietary needs and preferences.</p>
           <ul>
             <li>Balanced nutrition</li>
@@ -26,11 +26,13 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-section">
-          <h3>Connect With Us</h3>
+          <h3 className='footer-heading'>Connect With Us</h3>
           <p>Follow us on social media for daily fitness tips, motivation, and updates.</p>
-          <p> Instragram : freakingfit</p>
-          <p>Twitter : Freakingfit_chennai</p>
-          <p> Facebook : freakingfit</p>
+          <ul>
+          <li> Instragram : freakingfit</li>
+          <li>Twitter : Freakingfit_chennai</li>
+          <li> Facebook : freakingfit</li>
+          </ul>
         </div>
       </div>
       <div className="footer-bottom">
