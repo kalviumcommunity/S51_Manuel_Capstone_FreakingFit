@@ -14,6 +14,7 @@ function Veg() {
       </div>
 
       <div>
+        
         <h2>Meal 2: Post-Workout (within 30 minutes after workout)</h2>
         <p>Plant-based protein shake with a banana.</p>
         <p>Quinoa salad with mixed vegetables and chickpeas.</p>
