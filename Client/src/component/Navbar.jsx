@@ -18,12 +18,13 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
           <h3>Freaking<br/> Fitness</h3>
         </div>
         <div className="buttons">
-          <Link to="/login" className="button">Login</Link>
-          <Link to="/about" className="button">ABOUT</Link>
           <Link to="/gymgoals" className="button">GYM GOALS</Link>
+          <Link to="/about" className="button">About</Link>
+          <Link to="/login" className="button">Login</Link>
         </div>
       </div>
     </nav>
+    
   );
 };
 
