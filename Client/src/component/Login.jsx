@@ -24,6 +24,7 @@ const Login = ({ setIsLoggedIn }) => {
                 name:username,
                 password:password
             }).then((response)=>{
+            console.log("login successfull")
             setCookie('token', response.data.accessToken,365);
             setCookie('username', username,365);
         navigate('/')}).catch((error)=>{console.error(error)});

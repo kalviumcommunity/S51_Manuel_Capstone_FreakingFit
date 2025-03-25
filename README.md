@@ -43,3 +43,5 @@ For any inquiries or feedback regarding Freaking Fit, feel free to reach out:
 Your feedback is valuable and helps us improve Freaking Fit for all users!
 
 Backend deployed link : https://s51-manuel-capstone-freakingfit.onrender.com
+
+Frontend deployed link : https://freaking-fit.netlify.app
